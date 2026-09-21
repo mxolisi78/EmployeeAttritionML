@@ -87,21 +87,25 @@ leave at 3× the rate (30.5% vs 10.4%).
 ### 1. Clone & set up
 
 ```powershell
-git clone <your-repo-url>
+git clone https://github.com/mxolisi78/EmployeeAttritionML.git
 cd EmployeeAttritionML
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+```
 
-2. Start the Django server
-powershell
+### 2. Start the Django server
+
+```powershell
 python manage.py migrate
 python manage.py runserver
+```
 
-3. Open in browser
+### 3. Open in browser
+
 http://127.0.0.1:8000/
 
-Fill in an employee's details → click Predict Attrition → get a
+Fill in an employee's details → click **Predict Attrition** → get a
 probability with a color-coded result card.
 
 📁 Project Structure
@@ -171,28 +175,11 @@ Dockerize + deploy to Railway/Render
 
 Add authentication so HR managers each see their own reports
 
-👤 Author
-Your Name
+## 👤 Author
 
-GitHub: @yourhandle
-
-LinkedIn: your profile
+**Mxolisi**
+- GitHub: [@mxolisi78](https://github.com/mxolisi78)
+- LinkedIn: [your profile](https://www.linkedin.com/in/mxolisi-maseko-9810b93a4/)   
 
 text
 
-**Replace**:
-- `<your-repo-url>`
-- `Your Name`
-- `@yourhandle`
-- LinkedIn URL
-
----
-
-# Step 16 — Git Init (Optional but Recommended)
-
-If you want this on GitHub:
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit: Employee Attrition Prediction System"
