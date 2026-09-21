@@ -1,0 +1,14 @@
+{% extends "predictor/base.html" %}
+{% block content %}
+<h1>Prediction Result</h1>
+
+<div class="result-card {% if result.prediction == 1 %}result-leave{% else %}result-stay{% endif %}">
+    <div><strong>{{ result.label }}</strong></div>
+    <div class="prob">{{ result.probability }}%</div>
+    <div style="font-size:14px;color:#4b5563">
+        Probability of leaving the company
+    </div>
+</div>
+
+<a class="back" href="{% url 'home' %}">← Predict another employee</a>
+{% endblock %}

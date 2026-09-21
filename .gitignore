@@ -1,0 +1,45 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (can be large / regenerable)
+models/*.pkl
+models/*.joblib
+
+# Data (don't commit raw data if it's large)
+data/raw/*.csv
+data/raw/*.xlsx
+
+# Keep the folder structure but ignore contents
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Visualizations output
+visualizations/*.png
+visualizations/*.jpg
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+
+# Django migrations (optional — some teams commit these, some don't;
+# for a portfolio project, committing them is fine. We'll unignore.)

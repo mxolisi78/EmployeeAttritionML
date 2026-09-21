@@ -1,0 +1,20 @@
+{% extends "predictor/base.html" %}
+{% block content %}
+<h1>Employee Attrition Predictor</h1>
+<p style="color:#4b5563">
+    Fill in the employee's details and the model will estimate their likelihood of leaving.
+</p>
+
+<form method="post" action="{% url 'predict' %}">
+    {% csrf_token %}
+    <div class="grid">
+        {% for field in form %}
+            <div>
+                <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                {{ field }}
+            </div>
+        {% endfor %}
+    </div>
+    <button type="submit">Predict Attrition</button>
+</form>
+{% endblock %}
