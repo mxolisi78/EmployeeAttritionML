@@ -1,5 +1,19 @@
 # Employee Attrition Prediction System
 
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.9-F7931E?logo=scikitlearn&logoColor=white)
+![Django](https://img.shields.io/badge/Django-6.1-092E20?logo=django&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-3.0-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-2.5-013243?logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
+An end-to-end Machine Learning application that predicts whether an employee
+is likely to leave a company, based on HR analytics data.
+
+Built as a complete production-style pipeline: **data → ML model → web interface**.
+
 An end-to-end Machine Learning application that predicts whether an employee
 is likely to leave a company, based on HR analytics data.
 
