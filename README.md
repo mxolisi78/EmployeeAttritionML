@@ -179,7 +179,7 @@ Add authentication so HR managers each see their own reports
 
 **Mxolisi**
 - GitHub: [@mxolisi78](https://github.com/mxolisi78)
-- LinkedIn: [your profile](https://www.linkedin.com/in/mxolisi-maseko-9810b93a4/)   
+- LinkedIn: [Mxolisi Maseko](https://www.linkedin.com/in/mxolisi-maseko-9810b93a4/)   
 
 text
 
