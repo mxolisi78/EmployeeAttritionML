@@ -9,6 +9,13 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
+![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/mxolisi78/EmployeeAttritionML)
+![GitHub repo size](https://img.shields.io/github/repo-size/mxolisi78/EmployeeAttritionML)
+
+
 An end-to-end Machine Learning application that predicts whether an employee
 is likely to leave a company, based on HR analytics data.
 
