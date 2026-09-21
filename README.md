@@ -7,6 +7,14 @@ Built as a complete production-style pipeline: **data → ML model → web inter
 
 ![Model Comparison](visualizations/08_model_comparison.png)
 
+## 📸 Live Demo
+
+![Prediction Form](docs/01_form.png)
+*Fill in an employee's profile.*
+
+| Predicts Leave | Predicts Stay |
+|---|---|
+| ![Leave](docs/02_result_leave.png) | ![Stay](docs/03_result_stay.png) |
 ---
 
 ## 🎯 Problem
